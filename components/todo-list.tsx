@@ -8,7 +8,7 @@ interface Task {
     text: string;
     completed: boolean;
   }
-  export default function todolist(){
+  export default function Todolist(){
     const [tasks, setTasks] = useState<Task[]>([]);
 const [newTask, setNewTask] = useState<string>("");
 const [editingTaskId, setEditingTaskId] = useState<number | null>(null);
